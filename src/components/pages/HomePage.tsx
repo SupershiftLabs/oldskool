@@ -4,7 +4,7 @@ import { supabase } from '@/lib/supabase';
 import { Tour, MerchProduct } from '@/types';
 import { ArrowRight, Clock, Users, Star, ChevronRight, Sparkles, Bus, Wine, Sunset, PartyPopper } from 'lucide-react';
 
-const HERO_IMAGE = '/skool bus hero.png';
+const HERO_IMAGE = '/skool bus hero.jpg';
 const GALLERY_IMAGES = [
   'https://d64gsuwffb70l.cloudfront.net/6956d8036df1a038b170009f_1767299374606_5684ef0f.png',
   'https://d64gsuwffb70l.cloudfront.net/6956d8036df1a038b170009f_1767299362290_ba06f9bf.jpg',
@@ -23,7 +23,7 @@ const HomePage: React.FC = () => {
       name: 'Brew Skool',
       subtitle: 'Quad Cities Craft Beer Bus',
       tagline: '"Skip class. Drink craft."',
-      image: '/brew skool.png',
+      image: '/brew skool.jpg',
       type: 'Half-day'
     },
     {
@@ -31,7 +31,7 @@ const HomePage: React.FC = () => {
       name: 'Hike Skool',
       subtitle: 'Trails, Forests & River Views',
       tagline: '"Field trips, but better."',
-      image: '/hike skool.png',
+      image: '/hike skool.jpg',
       type: 'Half-day'
     },
     {
@@ -39,7 +39,7 @@ const HomePage: React.FC = () => {
       name: 'Sport Skool',
       subtitle: 'Your VIP Pass to QC Sports',
       tagline: '"Game on. Ride home."',
-      image: '/sport skool.png',
+      image: '/sport skool.jpg',
       type: 'Full-day'
     },
     {
@@ -47,7 +47,7 @@ const HomePage: React.FC = () => {
       name: 'Culture Skool',
       subtitle: 'Music, Art & Local Flavor',
       tagline: '"Learn the city. Feel the city."',
-      image: '/culture skool.png',
+      image: '/culture skool.jpg',
       type: 'Half-day'
     }
   ];

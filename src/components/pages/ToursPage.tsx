@@ -21,7 +21,7 @@ const ToursPage: React.FC = () => {
       ],
       type: 'Half-day = Pop Quiz',
       color: 'from-amber-500 to-orange-600',
-      image: '/brew skool.png'
+      image: '/brew skool.jpg'
     },
     {
       id: 'hike-skool',
@@ -38,7 +38,7 @@ const ToursPage: React.FC = () => {
       ],
       type: 'Half-day = Pop Quiz',
       color: 'from-green-600 to-emerald-700',
-      image: '/hike skool.png'
+      image: '/hike skool.jpg'
     },
     {
       id: 'sport-skool',
@@ -55,7 +55,7 @@ const ToursPage: React.FC = () => {
       ],
       type: 'Full-day = Field Trip',
       color: 'from-blue-600 to-green-600',
-      image: '/sport skool.png'
+      image: '/sport skool.jpg'
     },
     {
       id: 'culture-skool',
@@ -71,7 +71,7 @@ const ToursPage: React.FC = () => {
       ],
       type: 'Half-day = Pop Quiz',
       color: 'from-purple-500 to-pink-600',
-      image: '/culture skool.png'
+      image: '/culture skool.jpg'
     },
     {
       id: 'picnic-skool',
@@ -87,7 +87,7 @@ const ToursPage: React.FC = () => {
       ],
       type: 'Half-day = Pop Quiz',
       color: 'from-red-500 to-rose-600',
-      image: '/picnic skool.png'
+      image: '/picnic skool.jpg'
     },
     {
       id: 'foodie-skool-galena',
@@ -104,7 +104,7 @@ const ToursPage: React.FC = () => {
       ],
       type: 'Full-day = Field Trip',
       color: 'from-yellow-500 to-orange-600',
-      image: '/foodie skool.png'
+      image: '/foodie skool.jpg'
     },
     {
       id: 'foodie-skool-river',
@@ -121,7 +121,7 @@ const ToursPage: React.FC = () => {
       ],
       type: 'Half-day = Pop Quiz',
       color: 'from-blue-500 to-cyan-600',
-      image: '/foodie skool.png'
+      image: '/foodie skool.jpg'
     }
   ];
 
@@ -132,7 +132,7 @@ const ToursPage: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/skool bus hero.png"
+            src="/skool bus hero.jpg"
             alt="Old Skool Bus"
             className="w-full h-full object-cover"
           />
