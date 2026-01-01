@@ -221,7 +221,7 @@ const ToursPage: React.FC = () => {
                       setSelectedTour(tourObj);
                       setBookingModalOpen(true);
                     }}
-                    className="w-full py-3 bg-gradient-to-r from-[#CCFF00] to-[#9EFF00] text-[#0A0A0A] font-black rounded-lg hover:from-[#9EFF00] hover:to-[#CCFF00] transform hover:scale-105 transition-all uppercase tracking-wider shadow-lg"
+                    className="w-full py-3 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black rounded-lg hover:from-[#FF1493] hover:via-[#FF6B35] hover:to-[#CCFF00] transform hover:scale-105 transition-all uppercase tracking-wider shadow-lg"
                   >
                     🎟️ Book This Tour
                   </button>
@@ -245,7 +245,7 @@ const ToursPage: React.FC = () => {
             </p>
             <button
               onClick={() => {}}
-              className="px-10 py-4 bg-[#CCFF00] text-[#0A0A0A] font-black rounded-lg hover:bg-white transform hover:scale-105 transition-all uppercase tracking-wider text-lg shadow-xl"
+              className="px-10 py-4 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black rounded-lg hover:from-[#FF1493] hover:via-[#FF6B35] hover:to-[#CCFF00] shadow-xl transform hover:scale-105 transition-all uppercase tracking-wider text-lg shadow-xl"
             >
               🚀 Let's Talk Custom
             </button>

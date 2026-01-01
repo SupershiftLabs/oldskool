@@ -303,7 +303,7 @@ const MerchPage: React.FC = () => {
                 <div className="mt-auto pt-6">
                   <button
                     onClick={handleAddToCart}
-                    className="w-full py-3 bg-[#CCFF00] text-[#0A0A0A] font-bold rounded-lg hover:bg-[#9EFF00] transition-colors flex items-center justify-center gap-2"
+                    className="w-full py-3 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-bold rounded-lg hover:from-[#FF1493] hover:via-[#FF6B35] hover:to-[#CCFF00] shadow-lg transition-colors flex items-center justify-center gap-2"
                   >
                     <ShoppingBag className="w-5 h-5" />
                     Add to Cart - ${(selectedProduct.price * quantity).toFixed(2)}

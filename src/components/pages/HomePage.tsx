@@ -143,7 +143,7 @@ const HomePage: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => setActivePage('tours')}
-                className="px-8 py-4 bg-gradient-to-r from-[#CCFF00] to-[#9EFF00] text-[#0A0A0A] font-black text-lg rounded-lg hover:shadow-lg hover:shadow-[#CCFF00]/30 transform hover:scale-105 transition-all flex items-center justify-center gap-2 uppercase tracking-wide"
+                className="px-8 py-4 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black text-lg rounded-lg hover:shadow-lg hover:shadow-[#CCFF00]/30 transform hover:scale-105 transition-all flex items-center justify-center gap-2 uppercase tracking-wide"
               >
                 🎟️ Book a Tour
                 <ArrowRight className="w-5 h-5" />
@@ -254,7 +254,7 @@ const HomePage: React.FC = () => {
                   <p className="text-[#CCFF00] text-xs mb-4 italic font-medium">{tour.tagline}</p>
                   <button
                     onClick={() => handleBookTour(tour.id, tour.name)}
-                    className="w-full py-2.5 bg-gradient-to-r from-[#CCFF00] to-[#9EFF00] text-[#0A0A0A] font-black rounded-lg hover:from-[#9EFF00] hover:to-[#CCFF00] transition-all uppercase tracking-wide text-sm"
+                    className="w-full py-2.5 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black rounded-lg hover:from-[#FF1493] hover:via-[#FF6B35] hover:to-[#CCFF00] transition-all uppercase tracking-wide text-sm"
                   >
                     🎟️ Book Now
                   </button>
