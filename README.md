@@ -1,15 +1,22 @@
-# Old Skool Tours & Transfers
+# 🚌 Old Skool Tours
 
-A production-ready Progressive Web App (PWA) for a retro-themed tour, transfer, party-bus, and merchandise brand operating a converted U.S. school bus.
+> **Groovy tours with a retro vibe!** Step back in time with our rad 80s-themed tour bus experiences.
 
-## Features
+## ✨ Features
 
-### Core Business Streams
-- **Signature Tours** - Wine country, sunset cruises, city lights tours
-- **Custom/Private Tours** - Personalized experiences
-- **Event & Sports Transfers** - Group transportation
-- **BYOB Party Bus Experiences** - Private celebrations
-- **Merchandise Sales** - Online + onboard QR payments
+### 🎯 Skool Tours (Signature Experiences)
+1. **🍺 Brew Skool** - Craft brewery adventure
+2. **🥾 Hike Skool** - Scenic mountain trails  
+3. **🏈 Sport Skool** - Game day party bus
+4. **🎭 Culture Skool** - Historic city tour
+5. **🧺 Picnic Skool** - Sunset picnic experience
+6. **🍕 Foodie Skool (Pizza Edition)** - Ultimate pizza tour
+7. **🌮 Foodie Skool (Taco Edition)** - Taco crawl adventure
+
+### 🎨 Retro 80s Design
+- **Neon Gradient Fonts** - Permanent Marker handwriting with glowing effects
+- **Vibrant Colors** - Lime yellow (#CCFF00), retro orange (#FF6B35), hot pink
+- **Miami Vice Aesthetic** - That classic 80s vibe throughout
 
 ### Technical Features
 - 📱 **PWA** - Installable, offline-ready mobile app
@@ -18,7 +25,7 @@ A production-ready Progressive Web App (PWA) for a retro-themed tour, transfer, 
 - 📊 **Admin Dashboard** - Manage bookings, tickets, and orders
 - 🛒 **E-commerce** - Full merch store with cart
 - 📧 **Contact Forms** - Customer inquiries
-- 📰 **Newsletter** - Email subscription
+- 🌐 **Responsive Design** - Looks rad on all devices
 
 ## Tech Stack
 
