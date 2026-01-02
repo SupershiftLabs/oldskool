@@ -111,11 +111,11 @@ const HomePage: React.FC = () => {
     <div className="min-h-screen bg-[#0A0A0A]">
       {/* Hero Section */}
   <section className="relative min-h-screen flex items-start pt-28 md:pt-0 md:items-center">
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 overflow-hidden">
           <img
             src={HERO_IMAGE}
             alt="Old Skool Bus"
-            className="w-full h-full object-contain md:object-cover"
+            className="w-full h-full object-cover scale-90 md:scale-100"
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>
