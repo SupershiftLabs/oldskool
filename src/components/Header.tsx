@@ -39,7 +39,7 @@ const Header: React.FC = () => {
           </button>
 
           {/* Cruisin' Since '24 Badge */}
-          <div className="hidden lg:flex items-center gap-2 px-3 py-1.5 bg-[#CCFF00]/10 border border-[#CCFF00]/30 rounded-full">
+          <div className="hidden md:flex items-center gap-2 px-3 py-1.5 bg-[#CCFF00]/10 border border-[#CCFF00]/30 rounded-full">
             <Sparkles className="w-3.5 h-3.5 text-[#CCFF00]" />
             <span className="text-[#CCFF00] text-xs font-bold tracking-wider uppercase">✨ Cruisin' Since '24</span>
           </div>
