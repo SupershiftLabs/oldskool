@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useStore } from '@/store/useStore';
-import { ShoppingBag, Menu, X, Bus, Settings } from 'lucide-react';
+import { ShoppingBag, Menu, X, Bus, Settings, Sparkles } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -37,6 +37,12 @@ const Header: React.FC = () => {
               </p>
             </div>
           </button>
+
+          {/* Cruisin' Since '24 Badge */}
+          <div className="hidden lg:flex items-center gap-2 px-3 py-1.5 bg-[#CCFF00]/10 border border-[#CCFF00]/30 rounded-full">
+            <Sparkles className="w-3.5 h-3.5 text-[#CCFF00]" />
+            <span className="text-[#CCFF00] text-xs font-bold tracking-wider uppercase">✨ Cruisin' Since '24</span>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">

@@ -122,17 +122,12 @@ const HomePage: React.FC = () => {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#CCFF00]/10 border border-[#CCFF00]/30 rounded-full mb-6">
-              <Sparkles className="w-4 h-4 text-[#CCFF00]" />
-              <span className="text-[#CCFF00] text-sm font-bold tracking-wider uppercase">✨ Cruisin' Since '24</span>
-            </div>
-            
-            <h1 className="text-5xl md:text-8xl font-black text-[#F5F3E7]/90 leading-none mb-6 tracking-tight">
+            <h1 className="text-5xl md:text-8xl font-black leading-none mb-6 tracking-tight opacity-70">
               OLD SKOOL
-              <span className="block text-[#CCFF00]/90 mt-2">ADVENTURES</span>
+              <span className="block text-[#CCFF00] mt-2">ADVENTURES</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-[#F5F3E7]/80 mb-8 max-w-lg font-medium">
+            <p className="text-xl md:text-2xl text-[#F5F3E7]/80 mb-8 md:mb-8 mb-12 max-w-lg font-medium">
               Hop on the coolest ride in town. 🚌 Retro vibes, rad destinations, zero hassle.
             </p>
             
@@ -146,7 +141,7 @@ const HomePage: React.FC = () => {
               </button>
               <button
                 onClick={() => setActivePage('gallery')}
-                className="px-8 py-4 bg-[#FF6B35]/90 text-white font-bold text-lg rounded-lg hover:bg-[#FF6B35] transition-all border-2 border-[#FF6B35] uppercase tracking-wide"
+                className="hidden sm:flex px-8 py-4 bg-[#FF6B35]/90 text-white font-bold text-lg rounded-lg hover:bg-[#FF6B35] transition-all border-2 border-[#FF6B35] uppercase tracking-wide"
               >
                 📸 See the Vibes
               </button>
