@@ -154,7 +154,7 @@ const HomePage: React.FC = () => {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+        <div className="absolute bottom-16 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
           <span className="text-[#F5F3E7]/50 text-xs tracking-wider">SCROLL</span>
           <div className="w-6 h-10 border-2 border-[#F5F3E7]/30 rounded-full flex items-start justify-center p-1">
             <div className="w-1.5 h-3 bg-[#CCFF00] rounded-full animate-pulse" />
