@@ -127,12 +127,12 @@ const HomePage: React.FC = () => {
               <span className="text-[#CCFF00] text-sm font-bold tracking-wider uppercase">✨ Cruisin' Since '24</span>
             </div>
             
-            <h1 className="text-5xl md:text-8xl font-black text-[#F5F3E7] leading-none mb-6 tracking-tight">
+            <h1 className="text-5xl md:text-8xl font-black text-[#F5F3E7]/90 leading-none mb-6 tracking-tight">
               OLD SKOOL
-              <span className="block text-[#CCFF00] mt-2">ADVENTURES</span>
+              <span className="block text-[#CCFF00]/90 mt-2">ADVENTURES</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-[#F5F3E7] mb-8 max-w-lg font-medium">
+            <p className="text-xl md:text-2xl text-[#F5F3E7]/80 mb-8 max-w-lg font-medium">
               Hop on the coolest ride in town. 🚌 Retro vibes, rad destinations, zero hassle.
             </p>
             
