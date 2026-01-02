@@ -122,7 +122,7 @@ const HomePage: React.FC = () => {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
           <div className="max-w-2xl">
-            <h1 className="text-5xl md:text-8xl font-black leading-none mb-6 tracking-tight opacity-70 mt-10 ml-10 md:mt-0 md:ml-0">
+            <h1 className="text-5xl md:text-8xl font-black leading-none mb-6 tracking-tight opacity-70 mt-4 ml-10 md:mt-0 md:ml-0">
               OLD SKOOL
               <span className="block text-[#CCFF00] mt-2">ADVENTURES</span>
             </h1>
