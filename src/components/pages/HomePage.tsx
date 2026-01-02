@@ -138,10 +138,10 @@ const HomePage: React.FC = () => {
                   // Make the page switch feel intentional on mobile
                   window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
                 }}
-                className="px-8 py-4 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black text-lg rounded-lg hover:shadow-lg hover:shadow-[#CCFF00]/30 transform hover:scale-105 transition-all flex items-center justify-center gap-2 uppercase tracking-wide"
+                className="px-4 py-2 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black text-base rounded-lg hover:shadow-lg hover:shadow-[#CCFF00]/30 transform hover:scale-105 transition-all flex items-center justify-center gap-2 uppercase tracking-wide w-fit"
               >
                 🎟️ Book a Tour
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="w-4 h-4" />
               </button>
               <button
                 onClick={() => setActivePage('gallery')}
