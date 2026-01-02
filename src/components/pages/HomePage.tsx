@@ -115,7 +115,7 @@ const HomePage: React.FC = () => {
           <img
             src={HERO_IMAGE}
             alt="Old Skool Bus"
-            className="w-full h-full object-cover scale-90 md:scale-100"
+            className="w-full h-full object-cover scale-[0.80] md:scale-100"
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>
