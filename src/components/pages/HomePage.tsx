@@ -110,7 +110,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#0A0A0A]">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center">
+  <section className="relative min-h-screen flex items-start pt-28 md:pt-0 md:items-center">
         <div className="absolute inset-0">
           <img
             src={HERO_IMAGE}
@@ -127,13 +127,17 @@ const HomePage: React.FC = () => {
               <span className="block text-[#CCFF00] mt-2">ADVENTURES</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-[#F5F3E7]/80 mb-16 md:mb-8 max-w-lg font-medium">
+            <p className="text-xl md:text-2xl text-[#F5F3E7]/80 mb-32 md:mb-8 max-w-lg font-medium">
               Hop on the coolest ride in town. 🚌 Retro vibes, rad destinations, zero hassle.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 mt-24 sm:mt-0">
+            <div className="flex flex-col sm:flex-row gap-4">
               <button
-                onClick={() => setActivePage('tours')}
+                onClick={() => {
+                  setActivePage('tours');
+                  // Make the page switch feel intentional on mobile
+                  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                }}
                 className="px-8 py-4 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black text-lg rounded-lg hover:shadow-lg hover:shadow-[#CCFF00]/30 transform hover:scale-105 transition-all flex items-center justify-center gap-2 uppercase tracking-wide"
               >
                 🎟️ Book a Tour
