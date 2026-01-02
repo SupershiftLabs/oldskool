@@ -110,7 +110,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#0A0A0A]">
       {/* Hero Section */}
-  <section className="relative min-h-screen flex items-start pt-28 md:pt-0 md:items-center">
+  <section className="relative min-h-screen flex items-start pt-28 pb-10 md:pt-0 md:pb-0 md:items-center">
         <div className="absolute inset-0">
           <img
             src={HERO_IMAGE}
