@@ -127,7 +127,7 @@ const HomePage: React.FC = () => {
               <span className="block text-[#CCFF00] mt-2">ADVENTURES</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-[#F5F3E7]/80 mb-8 md:mb-8 mb-12 max-w-lg font-medium">
+            <p className="text-xl md:text-2xl text-[#F5F3E7]/80 mb-16 md:mb-8 max-w-lg font-medium">
               Hop on the coolest ride in town. 🚌 Retro vibes, rad destinations, zero hassle.
             </p>
             
