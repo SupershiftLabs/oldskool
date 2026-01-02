@@ -131,7 +131,7 @@ const HomePage: React.FC = () => {
               Hop on the coolest ride in town. 🚌 Retro vibes, rad destinations, zero hassle.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mt-14 sm:mt-0">
               <button
                 onClick={() => setActivePage('tours')}
                 className="px-8 py-4 bg-gradient-to-r from-[#CCFF00] via-[#FF6B35] to-[#FF1493] text-white font-black text-lg rounded-lg hover:shadow-lg hover:shadow-[#CCFF00]/30 transform hover:scale-105 transition-all flex items-center justify-center gap-2 uppercase tracking-wide"
