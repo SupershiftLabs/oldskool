@@ -128,8 +128,8 @@ const HomePage: React.FC = () => {
             </div>
             
             <h1 className="text-5xl md:text-8xl font-black text-[#F5F3E7] leading-none mb-6 tracking-tight">
-              BACK TO
-              <span className="block text-[#CCFF00] mt-2">SKOOL</span>
+              OLD SKOOL
+              <span className="block text-[#CCFF00] mt-2">ADVENTURES</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-[#F5F3E7] mb-8 max-w-lg font-medium">

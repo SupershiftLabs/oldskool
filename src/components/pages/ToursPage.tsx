@@ -137,7 +137,7 @@ const ToursPage: React.FC = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-6xl md:text-8xl font-black text-[#F5F3E7] mb-6 leading-none uppercase tracking-tighter">
-              SKOOL'S <span className="text-[#CCFF00]">IN SESSION</span>
+              OLD SKOOL <span className="text-[#CCFF00]">ADVENTURES</span>
             </h1>
             <p className="text-xl md:text-2xl text-[#F5F3E7] mb-8 font-medium">
               Craft beer, killer views, and bomb food. 🍺🌅 Pick your adventure below! 👇
