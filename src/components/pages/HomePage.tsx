@@ -23,32 +23,28 @@ const HomePage: React.FC = () => {
       name: 'Brew Skool',
       subtitle: 'Quad Cities Craft Beer Bus',
       tagline: '"Skip class. Drink craft."',
-      image: '/brew skool.jpg',
-      type: 'Half-day'
+      image: '/brew skool.jpg'
     },
     {
       id: 'hike-skool',
       name: 'Hike Skool',
       subtitle: 'Trails, Forests & River Views',
-      tagline: '"Field trips, but better."',
-      image: '/hike skool.jpg',
-      type: 'Half-day'
+      tagline: '"Nature is totally rad!"',
+      image: '/hike skool.jpg'
     },
     {
       id: 'sport-skool',
       name: 'Sport Skool',
       subtitle: 'Your VIP Pass to QC Sports',
       tagline: '"Game on. Ride home."',
-      image: '/sport skool.jpg',
-      type: 'Full-day'
+      image: '/sport skool.jpg'
     },
     {
       id: 'culture-skool',
       name: 'Culture Skool',
       subtitle: 'Music, Art & Local Flavor',
       tagline: '"Learn the city. Feel the city."',
-      image: '/culture skool.jpg',
-      type: 'Half-day'
+      image: '/culture skool.jpg'
     }
   ];
 
@@ -242,9 +238,6 @@ const HomePage: React.FC = () => {
                     className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent" />
-                  <div className="absolute top-3 right-3 px-3 py-1 bg-[#0A0A0A]/80 backdrop-blur-sm rounded-full border border-[#CCFF00]/30">
-                    <span className="text-[#CCFF00] text-xs font-bold uppercase">{tour.type}</span>
-                  </div>
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg font-bold text-[#F5F3E7] mb-1 group-hover:text-[#CCFF00] transition-colors">

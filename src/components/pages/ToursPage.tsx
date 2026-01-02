@@ -2,6 +2,7 @@ import React from 'react';
 import { useStore } from '@/store/useStore';
 import { MapPin, Calendar } from 'lucide-react';
 
+// Last updated: Labels completely removed - no duration badges
 const ToursPage: React.FC = () => {
   const { setSelectedTour, setBookingModalOpen } = useStore();
 
@@ -11,7 +12,7 @@ const ToursPage: React.FC = () => {
       icon: '🍺',
       name: 'Brew Skool',
       subtitle: 'Quad Cities Craft Beer Bus',
-      description: 'A rolling craft beer field trip across the QC. Zero driving, maximum tasting.',
+      description: 'A rolling craft beer tour across the QC. Zero driving, maximum tasting.',
       tagline: '"Skip class. Drink craft."',
       stops: [
         'Front Street Brewery (Davenport)',
@@ -19,7 +20,6 @@ const ToursPage: React.FC = () => {
         'Bent River Brewing',
         'Five Cities Brewing'
       ],
-      type: 'Half-day = Pop Quiz',
       color: 'from-amber-500 to-orange-600',
       image: '/brew skool.jpg'
     },
@@ -29,14 +29,13 @@ const ToursPage: React.FC = () => {
       name: 'Hike Skool',
       subtitle: 'Trails, Forests & River Views',
       description: 'Laid-back outdoor adventures to the best nearby nature spots.',
-      tagline: '"Field trips, but better."',
+      tagline: '"Nature is totally rad!"',
       stops: [
         'Loud Thunder Forest Preserve',
         'Illiniwek Forest Preserve',
         'Sunderbruch Park',
         'Mississippi Riverfront trails'
       ],
-      type: 'Half-day = Pop Quiz',
       color: 'from-green-600 to-emerald-700',
       image: '/hike skool.jpg'
     },
@@ -45,7 +44,7 @@ const ToursPage: React.FC = () => {
       icon: '🏈',
       name: 'Sport Skool',
       subtitle: 'Your VIP Pass to Quad Cities Sports',
-      description: 'Skip the traffic and tailgate like a pro with Sport Skool—our rolling field trip for die-hard fans and casual spectators alike.',
+      description: 'Skip the traffic and tailgate like a pro with Sport Skool—our rolling party bus for die-hard fans and casual spectators alike.',
       tagline: '"Game on. Ride home."',
       stops: [
         'Iowa City Hawkeyes matchups',
@@ -53,7 +52,6 @@ const ToursPage: React.FC = () => {
         'Pre-game tailgating onboard',
         'Easy trips to Iowa City, Davenport, Rock Island & beyond'
       ],
-      type: 'Full-day = Field Trip',
       color: 'from-blue-600 to-green-600',
       image: '/sport skool.jpg'
     },
@@ -69,7 +67,6 @@ const ToursPage: React.FC = () => {
         'Village of East Davenport',
         'Rock Island Arts District'
       ],
-      type: 'Half-day = Pop Quiz',
       color: 'from-purple-500 to-pink-600',
       image: '/culture skool.jpg'
     },
@@ -85,7 +82,6 @@ const ToursPage: React.FC = () => {
         'Riverside Park',
         'Lake George (Muscatine area)'
       ],
-      type: 'Half-day = Pop Quiz',
       color: 'from-red-500 to-rose-600',
       image: '/picnic skool.jpg'
     },
@@ -94,7 +90,7 @@ const ToursPage: React.FC = () => {
       icon: '🍽️',
       name: 'Foodie Skool – Galena Edition',
       subtitle: 'Historic Eats & Hidden Gems',
-      description: 'A full-day culinary field trip to Galena. Eat your way through one of the Midwest\'s best food towns—without worrying about parking or timing.',
+      description: 'A culinary adventure to Galena. Eat your way through one of the Midwest\'s best food towns—without worrying about parking or timing.',
       tagline: '"Extra credit for good taste."',
       stops: [
         'Handpicked restaurants & bakeries',
@@ -102,7 +98,6 @@ const ToursPage: React.FC = () => {
         'Free time to explore Main Street',
         'Bus vibe: food passports, curated playlists, nap-friendly ride home'
       ],
-      type: 'Full-day = Field Trip',
       color: 'from-yellow-500 to-orange-600',
       image: '/foodie skool.jpg'
     },
@@ -119,7 +114,6 @@ const ToursPage: React.FC = () => {
         'Fulton / Clinton – comfort food, historic spots, river views',
         'Bus vibe: local food trivia, shared tasting stops, chill cruise back'
       ],
-      type: 'Half-day = Pop Quiz',
       color: 'from-blue-500 to-cyan-600',
       image: '/foodie skool.jpg'
     }
@@ -146,7 +140,7 @@ const ToursPage: React.FC = () => {
               SKOOL'S <span className="text-[#CCFF00]">IN SESSION</span>
             </h1>
             <p className="text-xl md:text-2xl text-[#F5F3E7] mb-8 font-medium">
-              Field trips meet craft beer, killer views, and bomb food. 🍺🌅 Pick your adventure below! 👇
+              Craft beer, killer views, and bomb food. 🍺🌅 Pick your adventure below! 👇
             </p>
           </div>
         </div>
@@ -160,7 +154,7 @@ const ToursPage: React.FC = () => {
               <span className="text-[#CCFF00]">Signature</span> Skool Tours
             </h2>
             <p className="text-[#F5F3E7] text-lg md:text-xl max-w-2xl mx-auto font-medium">
-              Half-day Pop Quizzes 📝 and full-day Field Trips 🚌. VIP upgrades for Honor Roll treatment! ⭐
+              Epic adventures 🎯 and awesome experiences 🚌. VIP upgrades for Honor Roll treatment! ⭐
             </p>
           </div>
 
@@ -177,9 +171,6 @@ const ToursPage: React.FC = () => {
                     className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent" />
-                  <div className="absolute top-3 right-3 px-3 py-1 bg-[#0A0A0A]/80 backdrop-blur-sm rounded-full border border-[#CCFF00]/30">
-                    <span className="text-[#CCFF00] text-xs font-medium">{tour.type}</span>
-                  </div>
                 </div>
                 
                 <div className="p-6">
@@ -215,7 +206,7 @@ const ToursPage: React.FC = () => {
                         short_description: tour.subtitle,
                         description: tour.description,
                         price: 75, // Default price, can be customized
-                        duration: tour.type.includes('Full-day') ? '8 hours' : '4 hours',
+                        duration: '4-8 hours',
                         max_guests: 14
                       };
                       setSelectedTour(tourObj);

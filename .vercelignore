@@ -1,0 +1,4 @@
+# Force clean builds
+.vercel
+dist
+node_modules/.vite
